@@ -26,6 +26,10 @@ format:
       .reveal ul { list-style: none; padding-left: 0; }
       .reveal ul li::before { content: "→ "; color: #00D4AA; }
 lang: es
+title-slide-attributes:
+  data-background-image: images/Logo_DuocUC.svg.png
+  data-background-size: 150px
+  data-background-position: 95% 95%
 ---
 
 ## {.plain}
@@ -97,7 +101,7 @@ Nos miramos con mi jefe y le dije:
 - Cientos de entrevistas técnicas — como entrevistado **y** como entrevistador
 - Perfiles: Data Scientist, Analista, MLOps, Data Engineer, Subgerente de Analytics
 - Entel → Globant
-- YouTube: **en_coders**
+- YouTube: **[en_coders](https://www.youtube.com/@en_coders)**
 
 ---
 
@@ -338,5 +342,13 @@ Contacto: LinkedIn · Discord (en la descripción de cualquier video)
 <br>
 
 ::: {.muted}
-Rodolfo · en_coders · LinkedIn
+Rodolfo Núñez
+
+- [https://www.youtube.com/@en_coders](https://www.youtube.com/@en_coders)
+- [https://www.twitch.tv/en_coders](https://www.twitch.tv/en_coders)
+- [https://www.linkedin.com/in/rodonunez/](https://www.linkedin.com/in/rodonunez/)
+- [https://github.com/rodo-nunez](https://github.com/rodo-nunez)
+
+![](images/Logo_principalEncoders.png){width=180px fig-align="center"}
+
 :::
