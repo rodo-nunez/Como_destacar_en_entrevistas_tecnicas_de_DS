@@ -1,0 +1,301 @@
+---
+title: "Cómo destacar en entrevistas técnicas de Data Science"
+subtitle: "DuocUC — 2025"
+author: "Tu Nombre"
+date: today
+format:
+  revealjs:
+    theme: dark
+    transition: fade
+    slide-number: false
+    progress: false
+    controls: false
+    center: true
+    highlight-style: dracula
+    incremental: false
+    width: 1280
+    height: 720
+    margin: 0.08
+    css: |
+      .reveal h1 { font-size: 1.8em; }
+      .reveal h2 { font-size: 1.3em; color: #00D4AA; }
+      .reveal blockquote { border-left: 4px solid #00D4AA; font-style: italic; background: rgba(0,212,170,0.08); padding: 0.5em 1em; }
+      .reveal .big-quote { font-size: 1.4em; line-height: 1.5; }
+      .accent { color: #00D4AA; font-weight: bold; }
+      .muted { color: #888; font-size: 0.85em; }
+lang: es
+---
+
+## {.plain}
+
+<br>
+
+### ¿Cuántos de ustedes pueden explicar lo que hacen...
+
+<br>
+
+::: {.fragment}
+...sin usar código?
+:::
+
+::: {.fragment}
+...sin usar jerga técnica?
+:::
+
+::: {.fragment}
+...a alguien que les va a pagar el sueldo?
+:::
+
+---
+
+## Sobre mí
+
+**Tu Nombre**
+
+- Sr. Data Scientist → Sr. MLOps Engineer → Tech Lead MLOps
+- Entel → Globant
+- +10 años en la industria, como entrevistado y como entrevistador
+- YouTube: **en_coders**
+
+---
+
+## La pregunta que todo entrevistador tiene en su cabeza
+
+<br>
+
+::: {.big-quote}
+> *¿Por qué debería contratar a esta persona en vez de a cualquier otro postulante?*
+:::
+
+---
+
+# Una historia real {background-color="#1a1a2e"}
+
+---
+
+## La segunda etapa
+
+Le dijimos algo muy concreto:
+
+<br>
+
+> *"Para la próxima entrevista, prepárate para hablar de cómo productivizarías un modelo de machine learning."*
+
+---
+
+## Lo que hizo
+
+<br>
+
+Llegó con **diagramas**.
+
+<br>
+
+Flujo de entrenamiento. Despliegue. Monitoreo. Qué pasa cuando el modelo falla.
+
+<br>
+
+::: {.muted}
+No era perfecto. Tenía gaps. Pero había pensado el problema como si fuera su trabajo resolverlo.
+:::
+
+---
+
+## La lección
+
+<br>
+
+::: {.big-quote}
+> *Una entrevista no es un examen.*
+> *Es una simulación de cómo trabajarías.*
+:::
+
+<br>
+
+Diferenciarse no siempre es saber más.  
+A veces es simplemente **prepararse con intención**.
+
+---
+
+# Los 3 errores más comunes {background-color="#1a1a2e"}
+
+---
+
+## ❌ Error 1: Usar sin entender
+
+<br>
+
+Entrenas un Random Forest.
+
+Te pregunto: *¿Por qué Random Forest y no un árbol simple?*
+
+<br>
+
+::: {.fragment}
+...silencio.
+:::
+
+<br>
+
+::: {.fragment}
+> *"¿Podría explicarle a alguien por qué estoy usando esto?"*  
+> Si no puedes, no lo entiendes todavía.
+:::
+
+---
+
+## ❌ Error 2: Métricas sin impacto
+
+<br>
+
+*"Mi modelo tuvo 87% de accuracy."*
+
+<br>
+
+::: {.fragment}
+Eso no es impacto. Eso es una métrica.
+:::
+
+<br>
+
+::: {.fragment}
+> *Pónganse en el lugar de la empresa.*  
+> *Sean solucionadores de problemas, no ejecutores de código.*
+:::
+
+---
+
+## Cómo contar un proyecto
+
+<br>
+
+1. **El problema** — ¿qué necesitaba la empresa?
+2. **Lo que hice** — ¿cuál fue mi aporte?
+3. **El resultado** — ¿qué mejoró, qué decisión se tomó mejor?
+
+<br>
+
+::: {.muted}
+Si es un proyecto académico sin resultado real — especúlenlo.  
+"Si hubiera estado en producción, habría permitido X."
+:::
+
+---
+
+## ❌ Error 3: Ignorar Git
+
+<br>
+
+Commits con mensaje `"asd"`.  
+Archivos llamados `proyecto_final_v3_DEFINITIVO.ipynb`.  
+README vacío.
+
+<br>
+
+::: {.fragment}
+**Tu GitHub es tu CV técnico.**  
+Un entrevistador técnico lo va a mirar antes de hablar contigo.
+:::
+
+---
+
+# Lo que sí funciona {background-color="#1a1a2e"}
+
+---
+
+## ✅ Entiende profundo, no memorices
+
+<br>
+
+No es saber la definición de overfitting.
+
+Es poder explicar qué pasa cuando tu modelo funciona en entrenamiento  
+pero falla en producción — y qué harías al respecto.
+
+---
+
+## ✅ Practica en voz alta
+
+<br>
+
+::: {.big-quote}
+> *Grábate respondiendo una entrevista simulada con un amigo o un LLM.*
+:::
+
+<br>
+
+::: {.fragment}
+Después mira el video y hazte esta pregunta:
+:::
+
+::: {.fragment}
+> *¿Le pagarías de tu propio dinero a esa persona para que te solucione un problema en tu empresa?*
+:::
+
+---
+
+## ✅ Ten un portafolio ordenado
+
+<br>
+
+No necesitas 20 proyectos.  
+Necesitas 2 o 3 proyectos **bien documentados**.
+
+<br>
+
+::: {.fragment}
+> *Si no productivizaste tu proyecto —  
+> si no lo dejaste en un estado donde alguien más pudiera usarlo —  
+> perdiste el tiempo.*
+:::
+
+---
+
+# {background-color="#0d1b2a"}
+
+<br>
+
+::: {.big-quote}
+> *La entrevista no empieza cuando te llaman.*
+:::
+
+<br>
+
+::: {.fragment}
+Empieza hoy.
+:::
+
+---
+
+## Para seguir aprendiendo
+
+<br>
+
+**en_coders** — YouTube
+
+<br>
+
+Ciencia de datos aplicada al mundo real.  
+Git, Quarto, MLOps, pensamiento de producción.
+
+<br>
+
+::: {.muted}
+El link estará disponible después de la charla.
+:::
+
+---
+
+## {.plain}
+
+<br>
+
+::: {.big-quote}
+¿Preguntas?
+:::
+
+<br>
+
+::: {.muted}
+Tu Nombre · Tu contacto / LinkedIn
+:::
