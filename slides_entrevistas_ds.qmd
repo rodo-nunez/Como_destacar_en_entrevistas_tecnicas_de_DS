@@ -32,7 +32,8 @@ lang: es
 
 <br>
 
-**Hace tres años, en Entel, estábamos buscando un nuevo integrante para el equipo de MLOps.**
+**Hace tres años, ...**
+<!-- en Entel, estábamos buscando un nuevo integrante para el equipo de MLOps.**
 
 ::: {.fragment}
 La entrevista tenía dos etapas.
@@ -74,7 +75,7 @@ Hasta que llegó este chico.
 Nos miramos con mi jefe y le dije:
 
 > *"Lo contratamos, ¿cierto? Para qué vamos a perder tiempo buscando más gente."*
-:::
+::: -->
 
 ---
 
@@ -238,7 +239,7 @@ Si de verdad quieren notebooks → prueben **Quarto Notebooks**.
 
 ---
 
-# Lo que sí funciona {background-color="#1a1a2e"}
+# Para destacar en una entrevista técnica: {background-color="#1a1a2e"}
 
 ---
 
