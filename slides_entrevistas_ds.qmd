@@ -1,7 +1,7 @@
 ---
 title: "Cómo destacar en entrevistas técnicas de Data Science"
 subtitle: "DuocUC — 2025"
-author: "Tu Nombre"
+author: "Rodolfo"
 date: today
 format:
   revealjs:
@@ -20,9 +20,11 @@ format:
       .reveal h1 { font-size: 1.8em; }
       .reveal h2 { font-size: 1.3em; color: #00D4AA; }
       .reveal blockquote { border-left: 4px solid #00D4AA; font-style: italic; background: rgba(0,212,170,0.08); padding: 0.5em 1em; }
-      .reveal .big-quote { font-size: 1.4em; line-height: 1.5; }
+      .reveal .big-quote { font-size: 1.3em; line-height: 1.6; }
       .accent { color: #00D4AA; font-weight: bold; }
       .muted { color: #888; font-size: 0.85em; }
+      .reveal ul { list-style: none; padding-left: 0; }
+      .reveal ul li::before { content: "→ "; color: #00D4AA; }
 lang: es
 ---
 
@@ -30,171 +32,208 @@ lang: es
 
 <br>
 
-### ¿Cuántos de ustedes pueden explicar lo que hacen...
+**Hace tres años, en Entel, estábamos buscando un nuevo integrante para el equipo de MLOps.**
+
+::: {.fragment}
+La entrevista tenía dos etapas.
+:::
+
+::: {.fragment}
+A los que pasaban la primera, les avisábamos:
+
+> *"En la segunda entrevista les preguntaremos cómo productivizarían un modelo desde cero."*
+:::
+
+---
+
+## {.plain}
 
 <br>
 
-::: {.fragment}
-...sin usar código?
-:::
+El proceso funcionaba normal.
+
+Algunos respondían bien. Otros mal.
 
 ::: {.fragment}
-...sin usar jerga técnica?
+Hasta que llegó este chico.
 :::
 
+---
+
+## Llegó con todo preparado
+
+<br>
+
+- Un **diagrama** para explicar su flujo
+- Ideas de qué hacer después
+- Claridad sobre lo que **no sabía** y debía investigar
+
 ::: {.fragment}
-...a alguien que les va a pagar el sueldo?
+<br>
+
+Nos miramos con mi jefe y le dije:
+
+> *"Lo contratamos, ¿cierto? Para qué vamos a perder tiempo buscando más gente."*
+:::
+
+---
+
+## {.plain}
+
+<br>
+
+::: {.big-quote}
+Ésa es la sensación que ustedes deberían provocar en sus entrevistadores.
 :::
 
 ---
 
 ## Sobre mí
 
-**Tu Nombre**
+**Rodolfo** · me dicen Rodo
 
-- Sr. Data Scientist → Sr. MLOps Engineer → Tech Lead MLOps
+- ~10 años en el mundo de los datos
+- Cientos de entrevistas técnicas — como entrevistado **y** como entrevistador
+- Perfiles: Data Scientist, Analista, MLOps, Data Engineer, Subgerente de Analytics
 - Entel → Globant
-- +10 años en la industria, como entrevistado y como entrevistador
 - YouTube: **en_coders**
 
 ---
 
-## La pregunta que todo entrevistador tiene en su cabeza
-
-<br>
-
-::: {.big-quote}
-> *¿Por qué debería contratar a esta persona en vez de a cualquier otro postulante?*
-:::
+# Ponerse en el lugar del entrevistador {background-color="#1a1a2e"}
 
 ---
 
-# Una historia real {background-color="#1a1a2e"}
-
----
-
-## La segunda etapa
-
-Le dijimos algo muy concreto:
+## ¿Por qué están contratando?
 
 <br>
 
-> *"Para la próxima entrevista, prepárate para hablar de cómo productivizarías un modelo de machine learning."*
-
----
-
-## Lo que hizo
-
-<br>
-
-Llegó con **diagramas**.
-
-<br>
-
-Flujo de entrenamiento. Despliegue. Monitoreo. Qué pasa cuando el modelo falla.
-
-<br>
-
-::: {.muted}
-No era perfecto. Tenía gaps. Pero había pensado el problema como si fuera su trabajo resolverlo.
-:::
-
----
-
-## La lección
-
-<br>
-
-::: {.big-quote}
-> *Una entrevista no es un examen.*
-> *Es una simulación de cómo trabajarías.*
-:::
-
-<br>
-
-Diferenciarse no siempre es saber más.  
-A veces es simplemente **prepararse con intención**.
-
----
-
-# Los 3 errores más comunes {background-color="#1a1a2e"}
-
----
-
-## ❌ Error 1: Usar sin entender
-
-<br>
-
-Entrenas un Random Forest.
-
-Te pregunto: *¿Por qué Random Forest y no un árbol simple?*
-
-<br>
+Tienen un problema de negocio que resolver.
 
 ::: {.fragment}
-...silencio.
+Ustedes deben ser la solución a ese problema.
 :::
 
+::: {.fragment}
 <br>
 
-::: {.fragment}
-> *"¿Podría explicarle a alguien por qué estoy usando esto?"*  
-> Si no puedes, no lo entiendes todavía.
+**La descripción del puesto es su mapa.**
+
+Léanla con esta pregunta en mente:
+
+> *¿Qué problema tiene esta empresa y cómo yo puedo resolverlo?*
 :::
 
 ---
 
-## ❌ Error 2: Métricas sin impacto
+# Los errores más comunes {background-color="#1a1a2e"}
 
-<br>
+---
 
-*"Mi modelo tuvo 87% de accuracy."*
+## ❌ Usar herramientas sin entenderlas
 
-<br>
+Describen su solución. Usan un Random Forest.
 
 ::: {.fragment}
-Eso no es impacto. Eso es una métrica.
+Les pregunto:
+
+*¿Por qué Random Forest y no una regresión lineal?*
+
+*¿Cuándo conviene un modelo más simple?*
+
+*¿Cómo tratan los valores nulos? ¿Por qué no reemplazar con el promedio?*
 :::
 
+::: {.fragment}
 <br>
 
-::: {.fragment}
-> *Pónganse en el lugar de la empresa.*  
-> *Sean solucionadores de problemas, no ejecutores de código.*
+En muchos cursos enseñan la fórmula.  
+Lo que importa es **cuándo aplicarla y por qué**.
 :::
 
 ---
 
-## Cómo contar un proyecto
+## ❌ Usar herramientas sin entenderlas
 
 <br>
 
-1. **El problema** — ¿qué necesitaba la empresa?
-2. **Lo que hice** — ¿cuál fue mi aporte?
-3. **El resultado** — ¿qué mejoró, qué decisión se tomó mejor?
+Con IA es fácil generar código.
 
+::: {.fragment}
+Generar **buena** código para un caso específico — no tanto.
+
+La IA repite patrones. Si la mayoría se equivoca en lo mismo, la IA también.
+:::
+
+::: {.fragment}
 <br>
 
-::: {.muted}
-Si es un proyecto académico sin resultado real — especúlenlo.  
-"Si hubiera estado en producción, habría permitido X."
+> *Por eso es tan importante entender cómo funcionan las técnicas internamente, al menos la intuición.*
 :::
 
 ---
 
-## ❌ Error 3: Ignorar Git
+## ❌ No demostrar impacto
 
 <br>
 
-Commits con mensaje `"asd"`.  
-Archivos llamados `proyecto_final_v3_DEFINITIVO.ipynb`.  
-README vacío.
-
-<br>
+El entrevistador necesita saber que pueden **lograr un objetivo**.
 
 ::: {.fragment}
-**Tu GitHub es tu CV técnico.**  
-Un entrevistador técnico lo va a mirar antes de hablar contigo.
+Las métricas son útiles — pero son solo un medio.
+
+Lo que importa es el **impacto**.
+:::
+
+::: {.fragment}
+<br>
+
+Para experiencias pasadas, usen el método **STAR**:
+
+Situation → Task → Action → Result
+:::
+
+---
+
+## ❌ No saber usar Git
+
+<br>
+
+Git no es un plus.
+
+::: {.fragment}
+Sin Git, no saben trabajar en equipo con desarrolladores.  
+No saben colaborar en código.
+:::
+
+::: {.fragment}
+<br>
+
+> *Yo no contrataría a alguien que no sabe usar Git.*
+
+Es fácil aprenderlo. Tomarlo en el trabajo sale caro.
+:::
+
+---
+
+## ❌ Usar Jupyter Notebooks
+
+<br>
+
+Son una de las herramientas más perjudiciales que puede aprender un Data Scientist.
+
+::: {.fragment}
+Fácil entrar. Difícil salir.
+
+**No son amigables con Git.** Esa es su mayor falencia.
+:::
+
+::: {.fragment}
+<br>
+
+Acostúmbrense a usar **scripts**: `.py`, `.sh`, `.r`
+
+Si de verdad quieren notebooks → prueben **Quarto Notebooks**.
 :::
 
 ---
@@ -203,66 +242,64 @@ Un entrevistador técnico lo va a mirar antes de hablar contigo.
 
 ---
 
-## ✅ Entiende profundo, no memorices
+## ✅ Entiende por qué, no solo el qué
 
 <br>
 
-No es saber la definición de overfitting.
+Antes de usar cualquier técnica, hazte la pregunta:
 
-Es poder explicar qué pasa cuando tu modelo funciona en entrenamiento  
-pero falla en producción — y qué harías al respecto.
+> *¿Podría explicarle a alguien por qué estoy usando esto?*
+
+::: {.fragment}
+<br>
+
+Si no puedes — no lo entiendes todavía.
+:::
 
 ---
 
-## ✅ Practica en voz alta
+## ✅ Habla con claridad y seguridad
 
 <br>
 
 ::: {.big-quote}
-> *Grábate respondiendo una entrevista simulada con un amigo o un LLM.*
+Grábate respondiendo una entrevista simulada.  
+Con un amigo. Con un LLM.
 :::
 
+::: {.fragment}
 <br>
 
-::: {.fragment}
-Después mira el video y hazte esta pregunta:
-:::
+Mira el video después y pregúntate:
 
-::: {.fragment}
 > *¿Le pagarías de tu propio dinero a esa persona para que te solucione un problema en tu empresa?*
 :::
 
 ---
 
-## ✅ Ten un portafolio ordenado
+## ✅ Ponte en el lugar de la empresa
 
 <br>
 
-No necesitas 20 proyectos.  
-Necesitas 2 o 3 proyectos **bien documentados**.
-
-<br>
+Sean **solucionadores de problemas**.
 
 ::: {.fragment}
-> *Si no productivizaste tu proyecto —  
-> si no lo dejaste en un estado donde alguien más pudiera usarlo —  
-> perdiste el tiempo.*
+<br>
+
+Usen métricas concretas para mostrar que han logrado cosas.
+
+Y conecten eso con el impacto real para el negocio.
 :::
 
 ---
 
-# {background-color="#0d1b2a"}
+## {.plain background-color="#0d1b2a"}
 
 <br>
 
 ::: {.big-quote}
-> *La entrevista no empieza cuando te llaman.*
-:::
-
-<br>
-
-::: {.fragment}
-Empieza hoy.
+¿Por qué deberían contratarte a ti  
+en vez de a cualquier otro postulante?
 :::
 
 ---
@@ -271,17 +308,20 @@ Empieza hoy.
 
 <br>
 
-**en_coders** — YouTube
+**en_coders** — YouTube · casi 200 episodios
 
 <br>
 
-Ciencia de datos aplicada al mundo real.  
-Git, Quarto, MLOps, pensamiento de producción.
+Episodios relevantes a lo de hoy:
 
-<br>
+- Git básico e intermedio
+- Jupyter Notebook: herramienta trampa
+- Entrevista técnica simulada
+- Introducción a Quarto
 
 ::: {.muted}
-El link estará disponible después de la charla.
+<br>
+Contacto: LinkedIn · Discord (en la descripción de cualquier video)
 :::
 
 ---
@@ -297,5 +337,5 @@ El link estará disponible después de la charla.
 <br>
 
 ::: {.muted}
-Tu Nombre · Tu contacto / LinkedIn
+Rodolfo · en_coders · LinkedIn
 :::

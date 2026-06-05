@@ -1,7 +1,7 @@
 ---
 title: "Cómo destacar en entrevistas técnicas de Data Science"
-subtitle: "Charla para estudiantes | DuocUC"
-author: "Tu Nombre"
+subtitle: "Charla para estudiantes | DuocUC — 2025"
+author: "Rodolfo"
 date: today
 format:
   html:
@@ -19,252 +19,168 @@ lang: es
 
 ---
 
-> **Nota de uso:** Este documento es la guía completa de la charla — contiene el desarrollo
-> de cada sección, las frases clave, las historias y los puntos de transición.
-> Los slides en RevealJS son el complemento visual para proyectar.
+> **Nota de uso:** Este documento es el guión completo de la charla.
+> El deck RevealJS (`slides_entrevistas_ds.qmd`) es el complemento visual para proyectar.
+> No leer esto en voz alta — usarlo para preparar y memorizar la estructura.
 
 ---
 
-# 🎯 Objetivo de la charla
+# 🎬 Apertura — La historia (sin presentarse todavía)
 
-En 15 minutos, los estudiantes deben salir con **una idea que cambie cómo se preparan** para
-sus próximas entrevistas técnicas. No es un tutorial. No es una lista de algoritmos que memorizar.
-Es una conversación honesta sobre qué separa a los candidatos que pasan de los que no.
+**Duración estimada:** 2 minutos
 
-**La pregunta central:**
-
-> *¿Por qué deberían contratarte a ti en vez de a cualquier otro postulante?*
+Entras directo a la historia, sin presentarte. La presentación viene después — primero hay que enganchar.
 
 ---
 
-# 🪝 Hook de apertura — *"¿Cuántos de ustedes saben explicar lo que hacen?"*
+Hace tres años, en Entel, estábamos buscando un nuevo integrante para el equipo de MLOps.
+
+La entrevista se dividía en dos partes. La primera era una prueba de alternativas, simplemente para filtrar candidatos que no sabían nada. Si les iba bien en la primera parte, les avisábamos: *"En la segunda entrevista, esta vez sincrónica, les vamos a preguntar cómo productivizarían un modelo desde cero."*
+
+El proceso estaba funcionando normal. Algunos respondían bien, otros mal. Hasta que llegó este chico al que le hicimos la misma pregunta que a todos — pero en la entrevista sincrónica llegó con todo preparado. Tenía un diagrama para explicar su flujo, tenía ideas de qué hacer después, y tenía claro qué era lo que no sabía y debía investigar.
+
+Luego de esa entrevista nos miramos con mi jefe, y yo le dije: *"Lo contratamos, ¿cierto? El proceso se cierra, para qué vamos a perder tiempo buscando más gente."* Él estaba de acuerdo.
+
+**Ésa es la sensación que ustedes deberían provocar en sus entrevistadores.**
+
+---
+
+## Presentación
+
+Acá me presento, rápido:
+
+Mi nombre es Rodolfo, me dicen Rodo. He estado trabajando en el mundo de los datos desde hace aproximadamente 10 años. He hecho cientos de entrevistas técnicas — tanto simuladas como reales — para perfiles de Data Scientist, Analista de Datos, MLOps Engineer, Ingeniero de Datos, y Subgerente de Analytics.
+
+---
+
+# 🎯 Ponerse en el lugar del entrevistador
 
 **Duración estimada:** 1.5 minutos
 
-## Cómo abrirla
+La pregunta central que hay que hacerse:
 
-Entras, no te presentas todavía. Lanzas la pregunta directo al público:
+> *¿Cómo el entrevistador se queda conforme al cerrar el proceso?*
 
-> *"Levante la mano quien pueda explicarle a alguien no técnico — un gerente, un cliente, su mamá
-> — qué hace un modelo de machine learning que ellos construyeron. No el código. No la fórmula.
-> El modelo. Qué hace. Por qué importa. Qué pasa si se equivoca."*
+La respuesta es más simple de lo que parece: hay que ponerse en el lugar del entrevistador. ¿Qué necesita? ¿Por qué está contratando a alguien? Está contratando porque quiere **resolver una necesidad**. Hay un problema de negocio detrás, y ustedes deben ser la solución a ese problema.
 
-Espera. Mira las manos. Deja que el silencio trabaje.
+## La descripción del puesto como mapa
 
-> *"Eso que acaban de sentir — esa incomodidad — es exactamente lo que sienten muchos candidatos
-> en una entrevista técnica. Y la buena noticia es que es 100% entrenable."*
+Quizás el problema implica usar herramientas técnicas. Quizás implica colaborar con mucha gente. Lo que les va a dar contexto sobre el problema que quieren resolver es **la descripción del puesto**. Léanla detenidamente para entender qué tiene que hacer la persona que tome ese rol.
 
-Ahí te presentas: nombre, experiencia, contexto. Rápido. No más de 30 segundos.
-
-## Por qué funciona este hook
-
-La pregunta genera un espejo. Los estudiantes no responden a estadísticas — responden a verse
-a sí mismos en la situación. El silencio después de levantar la mano es el momento en que
-deciden prestar atención.
+Puede parecer una descripción genérica de Data Scientist, pero suele haber necesidades específicas: una nube en particular, Deep Learning, automatización de sistemas. Entiendan qué hay detrás de eso según el contexto de la empresa, qué podrían querer hacer, y cómo ustedes son capaces de resolver ese tipo de problemas.
 
 ---
 
-# 📖 Historia: El candidato que llegó preparado de verdad
-
-**Duración estimada:** 3 minutos
-
-## El relato
-
-Esta es una historia real. Estaba haciendo entrevistas para una posición de Data Scientist en mi equipo.
-
-El proceso tenía dos etapas. En la primera, el candidato respondió bien — nada extraordinario,
-pero sólido. Lo pasamos a la segunda etapa y le dijimos algo muy específico:
-
-> *"Para la próxima entrevista, prepárate para hablar de cómo productivizarías un modelo de machine learning."*
-
-La mayoría de los candidatos en esa situación llega con un par de ideas vagas.
-Algunos memorizan definiciones de MLOps. Algunos ni recuerdan que les dijimos eso.
-
-Este candidato llegó con **diagramas**. Había pensado en el flujo completo: cómo se entrenan
-los modelos, cómo se despliegan, cómo se monitorean, qué pasa cuando fallan. No era perfecto —
-tenía gaps técnicos — pero había **pensado el problema como si fuera su trabajo resolverlo**.
-
-## La lección
-
-Ese candidato entendió algo que la mayoría no entiende:
-
-> *Una entrevista no es un examen. Es una simulación de cómo trabajarías.*
-
-La empresa no te está evaluando en lo que sabes hoy. Te está evaluando en **cómo piensas,
-cómo te preparas, y cómo enfrentarías un problema real si te contrataran**.
-
-Diferenciarse no siempre es saber más. A veces es simplemente **prepararse con intención**.
-
-## Punto de transición
-
-> *"Entonces, ¿qué hace que alguien no se prepare así? En mi experiencia, hay tres errores
-> que veo repetirse una y otra vez."*
-
----
-
-# ❌ Los 3 errores más comunes
+# ❌ Los errores más comunes en entrevistas técnicas
 
 **Duración estimada:** 4 minutos
 
-## Error 1 — Usar código o fórmulas sin entenderlas
+## Error 1 — Usar una herramienta sin entenderla
 
-El candidato entrena un Random Forest. Le pregunto: *"¿Por qué Random Forest y no un árbol de
-decisión simple?"*. Silencio.
+Uno muy común: están describiendo su proceso para resolver un problema y se les ocurre usar un Random Forest. Pero si les pregunto:
 
-Le pregunto: *"¿Qué es el hiperparámetro `n_estimators` que usaste?"*. Copia-pega de un tutorial.
+- ¿Por qué escogieron Random Forest y no un árbol simple, una regresión lineal, o una red neuronal?
+- ¿Cuándo conviene usar un modelo más simple como una regresión lineal para obtener un mejor resultado?
+- ¿Cómo tratarían los valores nulos dado este contexto? ¿Reemplazarían con el promedio, con la mediana? ¿Por qué esas técnicas suelen funcionar mal? ¿Qué otras alternativas se ajustan mejor a la información del dataset?
 
-Esto pasa **todo el tiempo**. Los estudiantes aprenden a usar herramientas sin entender por qué
-las usan. En un tutorial o un curso, eso funciona. En una empresa, no.
+En muchos cursos básicos enseñan fórmulas y los estudiantes se las aprenden de memoria. Pero es mucho más importante entender cómo deducir esas fórmulas, cómo aplicarlas y cuándo aplicarlas.
 
-**La pregunta que siempre revela esto:**
+### El caso de los tests de hipótesis
 
-> *"Explícame por qué tomaste esa decisión técnica."*
+Otro ejemplo típico: ¿cómo usas un test de hipótesis en la vida real? Un problema que requiere un test de hipótesis no tiene un letrero que te grite que lo uses — tú tienes que reconocer cuándo es posible aplicarlo, qué tipo de test vas a usar, cómo reconoces cuál es el adecuado. Y qué significa el p-value, no solo su definición, sino cómo lo interpretas en contexto.
 
-Si la respuesta es *"porque lo vi en Kaggle"* o *"porque el profesor lo enseñó así"*, perdiste.
+### El rol de la IA
 
-### Lo que sí funciona
+Con inteligencia artificial es muy fácil crear código y soluciones. Pero crear una buena solución para un caso específico no es tan simple, sobre todo porque la IA repite patrones — y si la mayoría de la gente se equivoca en lo mismo, la IA se va a equivocar también. Por eso es tan importante entender por qué ocupar una técnica u otra, y cómo funcionan internamente, al menos la intuición.
 
-Antes de usar una herramienta, hazte esta pregunta: *"¿Podría explicarle a alguien por qué
-estoy usando esto?"*. Si no puedes, no la entiendes todavía.
-
----
-
-## Error 2 — No saber contar tu propio trabajo
-
-Hiciste un proyecto de predicción de churn para tu ramo de Machine Learning. Perfecto.
-
-Te pregunto: *"¿Cuál fue el impacto de tu modelo?"*
-
-Respuesta común: *"Obtuve un 87% de accuracy."*
-
-**Eso no es impacto. Eso es una métrica.**
-
-Una empresa no te va a contratar para que tengas un 87% de accuracy. Te va a contratar para
-que **resuelvas un problema**. ¿Qué problema resolvía tu modelo? ¿Qué decisión habilitaba?
-¿Qué pasaba si el modelo se equivocaba?
-
-> *"Pónganse en el lugar de la empresa. Sean solucionadores de problemas, no ejecutores de código."*
-
-Cuando cuenten un proyecto en una entrevista, cuéntenlo así:
-
-1. **El problema**: ¿qué necesitaba la empresa?
-2. **Lo que hicieron**: ¿cuál fue su aporte?
-3. **El resultado**: ¿qué mejoró, qué decisión se tomó mejor?
-
-Y si es un proyecto académico sin resultado real, **especúlenlo**. *"Si esto hubiera estado en
-producción, hubiera permitido X."* Eso muestra que piensan más allá del código.
+Muchas personas están preocupadas porque creen que la IA les va a quitar el trabajo. Para quienes están estudiando ciencia de datos, la IA les da más herramientas — pero para usarla bien necesitan entender los fundamentos. El código es fácil de producir. **Código de calidad es difícil. Arquitectura de calidad es difícil.**
 
 ---
 
-## Error 3 — Ignorar Git y las herramientas de colaboración
+## Error 2 — No demostrar impacto
 
-Esto es más corto pero igual de importante.
+Otro punto muy importante es entender qué es lo que quiere el entrevistador, para qué los necesita. Para demostrarle que pueden ayudarle, tienen que demostrarle a través de datos concretos que pueden lograr un objetivo. **Usar métricas es muy efectivo** para transmitir el mensaje: *"yo he logrado esto y lo puedo lograr con tu empresa también."*
 
-Si subes tu proyecto a GitHub con un README vacío, commits con mensajes como `"asd"` o `"cambios"`,
-y carpetas llamadas `"proyecto_final_v3_DEFINITIVO.ipynb"` — eso dice algo de ti como profesional.
+Pero las métricas son solo un medio. Lo que importa en verdad es el **impacto** — qué tanto sirvió lo que hicieron. La métrica lo captura.
 
-**Git no es una herramienta opcional.** Es la forma en que los equipos de datos trabajan.
-Es el primer lugar donde un entrevistador técnico va a mirarte antes de la entrevista.
+Pónganse en el lugar de la empresa. Sean solucionadores de problemas.
 
-Tu GitHub **es tu CV técnico**. Trátalo así.
+### El método STAR
 
-> *En mi canal de YouTube encontrarán recursos para aprender Git y también Quarto,
-> que es la herramienta que yo uso para documentar y comunicar análisis de datos de forma profesional —
-> muy distinta a los Jupyter Notebooks que probablemente están usando hoy.*
+Para hablar de experiencias pasadas y fundamentar preguntas cualitativas, les puede servir el método **STAR**:
 
----
+- **S**ituation — el contexto
+- **T**ask — la tarea o responsabilidad
+- **A**ction — lo que hicieron
+- **R**esult — el resultado concreto
 
-# ✅ Lo que sí funciona
-
-**Duración estimada:** 4 minutos
-
-## 1. Entiende profundo, no memorizes
-
-No es memorizar la definición de overfitting. Es poder explicarle a alguien qué significa
-que tu modelo funcione bien en los datos de entrenamiento pero falle en producción —
-y qué harías para detectarlo y corregirlo.
-
-Cada vez que aprendan algo nuevo, háganse la prueba del *"¿lo puedo explicar?"*.
-
-## 2. Practica explicar en voz alta
-
-Esta es la más importante y la menos practicada.
-
-> *"Grábense respondiendo una entrevista simulada con un amigo o con un LLM.
-> Vean el video después y pregúntense honestamente: ¿le pagaría de mi propio dinero
-> a esta persona para que me solucione un problema en mi empresa?"*
-
-Si la respuesta es no, tienen trabajo que hacer. Y eso es bueno saberlo antes de la entrevista.
-
-La incomodidad de verse en video es exactamente el entrenamiento que necesitan.
-
-## 3. Tengan un portafolio ordenado
-
-No necesitan 20 proyectos. Necesitan 2 o 3 proyectos bien documentados, con:
-
-- Un README que explique qué problema resolvían
-- Código limpio, con commits que cuenten una historia
-- Idealmente, algún resultado o conclusión clara
-
-> *"Si no productivizaron su proyecto — si no lo dejaron en un estado donde alguien
-> más pudiera entenderlo y usarlo — perdieron el tiempo."*
-
-Eso aplica tanto a proyectos personales como a proyectos de clase.
+Y si no entendieron lo que dije — estúdienlo en inglés, que es como está documentado.
 
 ---
 
-# 🎯 Cierre motivacional
+## Error 3 — No saber usar Git
+
+Otro punto que yo priorizo mucho: el uso de Git. Si no saben usar Git, no saben trabajar en equipo con desarrolladores. No saben trabajar en código de forma colaborativa.
+
+Yo no trato Git como un plus en una entrevista. Para mí es lo contrario: si no sabes usarlo, son puntos menos. No contrataría en mi equipo a alguien que no sabe usar Git. Es fácil aprenderlo — no es fácil entenderlo a cabalidad, pero eso se practica. Tomar a alguien que no sabe nada y enseñarle en el trabajo puede ser muy costoso.
+
+---
+
+## Error 4 — Usar Jupyter Notebooks
+
+Nunca en la vida he usado un Jupyter Notebook para algún proyecto real. Creo que son una de las herramientas más perjudiciales que uno puede aprender como Data Scientist. Es fácil comenzar a usarlos, pero después es difícil salir de ellos y quitar los malos hábitos que introducen.
+
+Los notebooks **no son amigables con Git**. Esa es una de sus mayores falencias.
+
+Si quieren crear productos a través de código que sean fácilmente instalables, reproducibles y automatizados, acostúmbrense a usar scripts: `.py`, `.sh`, `.r`, etc.
+
+Si de verdad quieren usar notebooks, prueben los **Quarto Notebooks**, que sí son amigables con Git.
+
+---
+
+# ✅ Lo que sí funciona — El cierre
 
 **Duración estimada:** 2.5 minutos
 
-## El remate
+Recuerden: si quieren destacar en una entrevista técnica, enfóquense en:
 
-Voy a cerrar con algo que quiero que se lleven hoy.
+1. **Entender qué están haciendo y por qué** — no memorizar, entender.
+2. **Ponerse en el lugar del entrevistador** para responder a su necesidad.
+3. **Hablar claramente y con seguridad.**
 
-Hay una pregunta que todo entrevistador tiene en la cabeza cuando habla con un candidato,
-aunque nunca la diga en voz alta:
+Y como recomendación personal: no usen Jupyter Notebooks. Usen scripts.
 
-> *¿Por qué debería contratar a esta persona en vez de a cualquier otro postulante?*
+## La prueba del espejo
 
-No te van a preguntar eso directamente. Pero todo lo que haces en una entrevista —
-cómo explicas tus proyectos, cómo enfrentas una pregunta difícil, cómo te preparaste —
-está respondiendo esa pregunta.
+Grábense respondiendo una entrevista simulada — con un amigo o con un LLM. Vean el video después y pregúntense honestamente:
 
-La entrevista no empieza cuando te llaman. Empieza hoy.
+> *¿Le pagarían de su propio dinero a esa persona para que les solucione un problema en su empresa?*
 
-Empieza cuando documentas bien un proyecto. Cuando practicas explicar tu trabajo.
-Cuando llegas a una entrevista habiendo pensado el problema antes de que te lo pregunten.
-
-El candidato de la historia que les conté no tenía más experiencia que los otros.
-Tenía más **intención**.
-
-## Mención a en_coders
-
-Si quieren seguir desarrollando estas habilidades — Git, Quarto, MLOps, cómo pensar
-como un Data Scientist en producción — los invito a mi canal de YouTube **en_coders**,
-donde hablo exactamente de eso: ciencia de datos aplicada al mundo real, no solo teoría.
-
-El link va a estar disponible después de la charla.
+Si la respuesta es no, tienen trabajo que hacer. Y eso es bueno saberlo antes de la entrevista real.
 
 ---
 
-# 📋 Checklist del speaker antes de la charla
+# 🎙️ en_coders — Para seguir aprendiendo
 
-- [ ] Revisar el hook de apertura — practicar el silencio después de la pregunta
-- [ ] Tener la historia del candidato lista para contar con naturalidad (no leer)
-- [ ] Preparar el link de en_coders para compartir al final
-- [ ] Confirmar tiempo disponible para Q&A (15 min estimados)
+Si quieren más detalles sobre esto — o cualquier otro tema relacionado a ciencia de datos — pueden revisar mi canal de YouTube: **en_coders**.
 
----
+Allí encontrarán contenido de todo tipo relacionado a ciencia de datos. Algunos episodios muy técnicos, otros conversacionales, entrevistas, buenas prácticas, MLOps, ciberseguridad, de todo un poco. Tenemos casi 200 episodios.
 
-# 🔗 Recursos para compartir con los estudiantes
+Algunos particularmente relevantes con respecto a lo que hablé hoy:
 
-- **Canal YouTube en_coders**: [tu link aquí]
-- **Git para data scientists** — buscar en el canal
-- **Quarto** — [https://quarto.org](https://quarto.org)
-- **Práctica de entrevistas con LLM**: simplemente abrir ChatGPT o Claude y pedir
-  una entrevista técnica de Data Science, responderla en voz alta y pedir feedback
+- Git básico e intermedio
+- Jupyter Notebook en el ambiente laboral: herramienta trampa
+- Una entrevista técnica simulada
+- Introducción a Quarto
+
+Si quieren contactarme, pueden escribirme por **LinkedIn** o por el **Discord** del canal, que encuentran en la descripción de cualquier video.
 
 ---
 
-*Charla preparada con apoyo de en_coders. Para más contenido sobre ciencia de datos aplicada, visita el canal.*
+# 📋 Checklist del speaker
+
+- [ ] Memorizar la historia de apertura — contarla sin mirar el slide
+- [ ] Tener claro el tiempo: historia (2 min) → entrevistador (1.5 min) → errores (4 min) → cierre + en_coders (2.5 min) → Q&A (15 min)
+- [ ] Preparar el link de en_coders para compartir al terminar
+- [ ] Practicar la pausa dramática después de *"Ésa es la sensación que ustedes deberían provocar"*
+
